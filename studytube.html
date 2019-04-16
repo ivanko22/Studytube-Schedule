@@ -1,0 +1,503 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="schedule.css">
+<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet"> -->
+
+
+	<title></title>
+</head>
+
+
+<body>
+
+<header>
+	<nav class="navigation">
+
+		<div class="nav_back"> 
+			<img src="images/drop-down.svg" class="nav-icon-back">
+			<span class="nav_back"> Back </span>
+		</div>
+
+		<div> <img src="images/logo_studytube.svg"> </div>
+		
+		<div class="nav_buttons">
+			<span> <img src="images/search.svg" class="icons-nav"> </span>
+			<span> <img src="images/notification.svg" class="icons-nav"> </span>
+			<span> <img src="images/profile.svg" class="icons-nav"> </span>
+			<span class="icons-nav" style="margin-right:68px"> <img src="images/drop-down-profile.svg" class="icon-profile-dropdown"> </span>
+			
+		</div>
+	</nav>
+
+	<div class="hero-image"> 
+		<div class="hero-text">
+			<p class="hero-tittle"> Schedule </p>
+			<p class="hero-subtittle"> First Three Step for Medical Help </p>
+		</div>
+
+ 	</div>
+</header>
+
+<content>
+	<div class="select">
+		<p class="select-tittle"> Select Mounth</p>
+	</div>
+
+	<div class="mounth-btns">
+
+		<img src="images/drop-down.svg" class="nav-icon-back-mounth">
+
+	<!-- march 2019 -->
+		<button class="mounth-btn" onclick="filterMounth('march', 'april2')" id="march">
+			<div class="mounth-name"> March </div>
+			<div class="mounth-year"> 2019 </div>
+		</button>
+	<!-- march 2019 -->
+
+	<!-- april 2019 -->
+		<button class="mounth-btn" onclick="filterMounth('april', 'march2')" id="april">
+			<div class="mounth-name"> April </div>
+			<div class="mounth-year"> 2019 </div>
+		</button>
+	<!-- april 2019 -->
+
+	<!-- may 2019 -->
+		<button class="mounth-btn">
+			<div class="mounth-name" id="may"> May </div>
+			<div class="mounth-year"> 2019 </div>
+		</button>
+
+	<!-- june 2019 -->
+		<button class="mounth-btn">
+			<div class="mounth-name"> June </div>
+			<div class="mounth-year"> 2019 </div>
+		</button>
+	
+
+	<!-- july 2019 -->
+		<button class="mounth-btn">
+			<div class="mounth-name"> July </div>
+			<div class="mounth-year"> 2019 </div>
+		</button>
+
+	<!-- august 2019 -->
+		<button class="mounth-btn">
+			<div class="mounth-name"> August </div>
+			<div class="mounth-year"> 2019 </div>
+		</button>
+	
+	<!-- september 2019 -->
+		<button class="mounth-btn">
+			<div class="mounth-name"> September</div>
+			<div class="mounth-year"> 2019 </div>
+		</button>
+
+	<!-- october 2019 -->
+		<button class="mounth-btn">
+			<div class="mounth-name"> October</div>
+			<div class="mounth-year"> 2019 </div>
+		</button>
+
+	<!-- november 2019 -->
+		<button class="mounth-btn">
+			<div class="mounth-name"> November</div>
+			<div class="mounth-year"> 2019 </div>
+		</button>	
+
+	<img src="images/drop-down.svg" class="nav-icon-back-mounth" style="transform: rotate(-90deg);">
+
+	</div>
+	
+
+</content>
+
+<main>
+	<!-- Schedule card March start -->
+	<div class="flex-container" id="march2">
+		<div class="flex-card-block-left"> 
+			<div class="time-block">
+				<p class="other-dates"> Other Dates: +1  </p>  
+			</div> 
+		
+			<div class="time-block" style="height:51px"> 
+				<p class="time"> <img src="images/clock.svg" class="icon-time"> 
+					<span> 12:00 - 14:00 </span> </p>  
+			</div>
+
+			<div class="time-block">
+				<p class="students-going"> 12 students going  </p>  
+			</div> 
+	</div>
+
+	<div class="flex-card-block-center">
+		<div class="lecture"> 
+			<span> <img src="images/lecture.svg" class="lecture-icon"> </span>  
+			<p class="lecture-tittle"> First 3 Steps for Medical Help </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/date.svg" class="lecture-icon" style="height:20px"> </span>  
+			<p class="lecture-date"> SATURDAY, <span class="lecture-date-bold"> March 4, 2019  </span> 
+			<span class="lecture-session">   Session 1 of 2 </span> </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/location.svg" class="lecture-icon" style="height:21px"> </span>  
+			<p class="lecture-tittle"> Amsterdam Central Hospital, Amsterdam, Netherlands  </p> 
+		</div>
+
+	</div>
+		<div class="flex-card-block-right"> 
+			<button class="button flex-container">Register</button>
+		</div>
+	</div>
+	<!-- Schedule card March end -->
+
+		<!-- Schedule card March start -->
+	<div class="flex-container" id="march2">
+		<div class="flex-card-block-left"> 
+			<div class="time-block">
+				<p class="other-dates"> Other Dates: +3  </p>  
+			</div> 
+		
+			<div class="time-block" style="height:51px"> 
+				<p class="time"> <img src="images/clock.svg" class="icon-time"> 
+					<span> 13:00 - 15:00 </span> </p>  
+			</div>
+
+			<div class="time-block">
+				<p class="students-going"> 1 students going  </p>  
+			</div> 
+	</div>
+
+	<div class="flex-card-block-center">
+		<div class="lecture"> 
+			<span> <img src="images/lecture.svg" class="lecture-icon"> </span>  
+			<p class="lecture-tittle"> First 3 Steps for Medical Help </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/date.svg" class="lecture-icon" style="height:20px"> </span>  
+			<p class="lecture-date"> WEDNESDAY, <span class="lecture-date-bold"> March 7, 2019  </span> 
+			<span class="lecture-session">   Session 2 of 2 </span> </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/location.svg" class="lecture-icon" style="height:21px"> </span>  
+			<p class="lecture-tittle"> Amsterdam Central Hospital, Amsterdam, Netherlands  </p> 
+		</div>
+
+	</div>
+		<div class="flex-card-block-right"> 
+			<button class="button flex-container">Register</button>
+		</div>
+	</div>
+	<!-- Schedule card March end -->
+
+		<!-- Schedule card March start -->
+	<div class="flex-container" id="march2">
+		<div class="flex-card-block-left"> 
+			<div class="time-block">
+				<p class="other-dates"> Other Dates: +1  </p>  
+			</div> 
+		
+			<div class="time-block" style="height:51px"> 
+				<p class="time"> <img src="images/clock.svg" class="icon-time"> 
+					<span> 15:00 - 17:00 </span> </p>  
+			</div>
+
+			<div class="time-block">
+				<p class="students-going"> 9 students going  </p>  
+			</div> 
+	</div>
+
+	<div class="flex-card-block-center">
+		<div class="lecture"> 
+			<span> <img src="images/lecture.svg" class="lecture-icon"> </span>  
+			<p class="lecture-tittle"> First 3 Steps for Medical Help </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/date.svg" class="lecture-icon" style="height:20px"> </span>  
+			<p class="lecture-date"> FRIDAY, <span class="lecture-date-bold"> March 9, 2019  </span> 
+			<span class="lecture-session">   Session 1 of 2 </span> </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/location.svg" class="lecture-icon" style="height:21px"> </span>  
+			<p class="lecture-tittle"> Amsterdam Central Hospital, Amsterdam, Netherlands  </p> 
+		</div>
+
+	</div>
+		<div class="flex-card-block-right"> 
+			<button class="button flex-container">Register</button>
+		</div>
+	</div>
+	<!-- Schedule card March end -->
+
+	<!-- Schedule card March start -->
+	<div class="flex-container" id="march2">
+		<div class="flex-card-block-left"> 
+			<div class="time-block">
+				<p class="other-dates"> Other Dates: +2  </p>  
+			</div> 
+		
+			<div class="time-block" style="height:51px"> 
+				<p class="time"> <img src="images/clock.svg" class="icon-time"> 
+					<span> 11:00 - 15:00 </span> </p>  
+			</div>
+
+			<div class="time-block">
+				<p class="students-going"> 0 students going  </p>  
+			</div> 
+	</div>
+
+	<div class="flex-card-block-center">
+		<div class="lecture"> 
+			<span> <img src="images/lecture.svg" class="lecture-icon"> </span>  
+			<p class="lecture-tittle"> First 3 Steps for Medical Help </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/date.svg" class="lecture-icon" style="height:20px"> </span>  
+			<p class="lecture-date"> SATURDAY, <span class="lecture-date-bold"> March 10, 2019  </span> 
+			<span class="lecture-session">   Session 1 of 2 </span> </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/location.svg" class="lecture-icon" style="height:21px"> </span>  
+			<p class="lecture-tittle"> Amsterdam Central Hospital, Amsterdam, Netherlands  </p> 
+		</div>
+
+	</div>
+		<div class="flex-card-block-right"> 
+			<button class="button flex-container">Register</button>
+		</div>
+	</div>
+	<!-- Schedule card March end -->
+
+	<!-- Schedule card April start -->
+	<div class="flex-container" id="april2">
+		<div class="flex-card-block-left"> 
+			<div class="time-block">
+				<p class="other-dates"> Other Dates: +2  </p>  
+			</div> 
+		
+			<div class="time-block" style="height:51px"> 
+				<p class="time"> <img src="images/clock.svg" class="icon-time"> 
+					<span> 11:00 - 15:00 </span> </p>  
+			</div>
+
+			<div class="time-block">
+				<p class="students-going"> 0 students going  </p>  
+			</div> 
+	</div>
+
+	<div class="flex-card-block-center">
+		<div class="lecture"> 
+			<span> <img src="images/lecture.svg" class="lecture-icon"> </span>  
+			<p class="lecture-tittle"> First 3 Steps for Medical Help </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/date.svg" class="lecture-icon" style="height:20px"> </span>  
+			<p class="lecture-date"> MONDAY, <span class="lecture-date-bold"> April 12, 2019  </span> 
+			<span class="lecture-session">   Session 2 of 2 </span> </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/location.svg" class="lecture-icon" style="height:21px"> </span>  
+			<p class="lecture-tittle"> Amsterdam Central Hospital, Amsterdam, Netherlands  </p> 
+		</div>
+
+	</div>
+		<div class="flex-card-block-right"> 
+			<button class="button flex-container">Register</button>
+		</div>
+	</div>
+	<!-- Schedule card April end -->
+
+	<!-- Schedule card April start -->
+	<div class="flex-container" id="april2">
+		<div class="flex-card-block-left"> 
+			<div class="time-block">
+				<p class="other-dates"> Other Dates: +1  </p>  
+			</div> 
+		
+			<div class="time-block" style="height:51px"> 
+				<p class="time"> <img src="images/clock.svg" class="icon-time"> 
+					<span> 11:00 - 15:00 </span> </p>  
+			</div>
+
+			<div class="time-block">
+				<p class="students-going"> 7 students going  </p>  
+			</div> 
+	</div>
+
+	<div class="flex-card-block-center">
+		<div class="lecture"> 
+			<span> <img src="images/lecture.svg" class="lecture-icon"> </span>  
+			<p class="lecture-tittle"> First 3 Steps for Medical Help </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/date.svg" class="lecture-icon" style="height:20px"> </span>  
+			<p class="lecture-date"> THURSDAY, <span class="lecture-date-bold"> April 14, 2019  </span> 
+			<span class="lecture-session">   Session 1 of 2 </span> </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/location.svg" class="lecture-icon" style="height:21px"> </span>  
+			<p class="lecture-tittle"> Amsterdam Central Hospital, Amsterdam, Netherlands  </p> 
+		</div>
+
+	</div>
+		<div class="flex-card-block-right"> 
+			<button class="button flex-container">Register</button>
+		</div>
+	</div>
+	<!-- Schedule card April end -->
+
+	<!-- Schedule card April start -->
+	<div class="flex-container" id="april2">
+		<div class="flex-card-block-left"> 
+			<div class="time-block">
+				<p class="other-dates"> Other Dates: +5  </p>  
+			</div> 
+		
+			<div class="time-block" style="height:51px"> 
+				<p class="time"> <img src="images/clock.svg" class="icon-time"> 
+					<span> 11:00 - 15:00 </span> </p>  
+			</div>
+
+			<div class="time-block">
+				<p class="students-going"> 10 students going  </p>  
+			</div> 
+	</div>
+
+	<div class="flex-card-block-center">
+		<div class="lecture"> 
+			<span> <img src="images/lecture.svg" class="lecture-icon"> </span>  
+			<p class="lecture-tittle"> First 3 Steps for Medical Help </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/date.svg" class="lecture-icon" style="height:20px"> </span>  
+			<p class="lecture-date"> FIRDAY, <span class="lecture-date-bold"> April 15, 2019  </span> 
+			<span class="lecture-session">   Session 2 of 2 </span> </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/location.svg" class="lecture-icon" style="height:21px"> </span>  
+			<p class="lecture-tittle"> Amsterdam Central Hospital, Amsterdam, Netherlands  </p> 
+		</div>
+
+	</div>
+		<div class="flex-card-block-right"> 
+			<button class="button flex-container">Register</button>
+		</div>
+	</div>
+	<!-- Schedule card April end -->
+
+	<!-- Schedule card May start -->
+	<div class="flex-container" id="may2">
+		<div class="flex-card-block-left"> 
+			<div class="time-block">
+				<p class="other-dates"> Other Dates: +2  </p>  
+			</div> 
+		
+			<div class="time-block" style="height:51px"> 
+				<p class="time"> <img src="images/clock.svg" class="icon-time"> 
+					<span> 11:00 - 15:00 </span> </p>  
+			</div>
+
+			<div class="time-block">
+				<p class="students-going"> 0 students going  </p>  
+			</div> 
+	</div>
+
+	<div class="flex-card-block-center">
+		<div class="lecture"> 
+			<span> <img src="images/lecture.svg" class="lecture-icon"> </span>  
+			<p class="lecture-tittle"> First 3 Steps for Medical Help </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/date.svg" class="lecture-icon" style="height:20px"> </span>  
+			<p class="lecture-date"> SATURDAY, <span class="lecture-date-bold"> May 23, 2019  </span> 
+			<span class="lecture-session">   Session 1 of 2 </span> </p> 
+		</div>
+
+		<div class="lecture"> 
+			<span> <img src="images/location.svg" class="lecture-icon" style="height:21px"> </span>  
+			<p class="lecture-tittle"> Amsterdam Central Hospital, Amsterdam, Netherlands  </p> 
+		</div>
+
+	</div>
+		<div class="flex-card-block-right"> 
+			<button class="button flex-container">Register</button>
+		</div>
+	</div>
+	<!-- Schedule card May end -->
+
+</main>
+
+</body>
+</html></head>
+
+<footer></footer>
+
+<script type="text/javascript">
+	
+	function filterMounth( btn, mounthName) {
+
+		// Declare all variables
+		var mounthCard, cardcontent, mounthBtn, stateBtn;
+
+		// Get all mounth cards by className
+		// mounthCard = document.getElementsByClassName('flex-container');
+		
+		//Get mounth btn by id
+		mounthBtn = document.getElementById(btn);
+	
+		stateBtn = mounthBtn.className;
+
+		// stateBtn = 0;
+
+		
+		if (stateBtn === "mounth-btn") {
+			
+
+		// Hide  mounth card by id
+		document.getElementById(mounthName).style.display = 'none';
+		// document.getElementById(mounthName).innerHTML = display;
+		
+		// Show active card of mounth card
+		mounthBtn.className = "mounth-btn-active";
+			// mounthBtn.style.backgroundColor = "#5fb1f3";
+			// mounthBtn.style.color = "white";
+			// stateBtn ++;
+
+		return null;
+
+		}
+
+		if (stateBtn === "mounth-btn-active") {
+			
+		// Show the hiden mounth card by id
+		document.getElementById(mounthName).style.display = 'flex';
+		// Reset active card of mounth card
+			mounthBtn.className = "mounth-btn";
+			// mounthBtn.style.backgroundColor = "#dcf0ff";
+			// mounthBtn.style.color = "#5fb1f3";
+			
+			return null;	
+		}
+	}
+
+	// filterMounth('march2');
+
+</script>
