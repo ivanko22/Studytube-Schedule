@@ -1,0 +1,23 @@
+{
+  "name": "studytube-schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanko22/Studytube-Schedule.git"
+  },
+  "author": "Ivan Kordonets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanko22/Studytube-Schedule/issues"
+  },
+  "homepage": "https://github.com/ivanko22/Studytube-Schedule#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
