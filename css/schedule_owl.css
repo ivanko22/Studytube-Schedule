@@ -154,7 +154,7 @@
 	}
 
 
-		.mounth-btn-active {
+	.mounth-btn-active {
 		border: none;
 		outline: none;
 		width: 10%;
@@ -173,6 +173,7 @@
 		font-weight: 500;
 		text-align: center;
 		position: relative;
+		top: 14px;
 	}
 
 	.mounth-year {
@@ -180,7 +181,7 @@
 		font-size: 12px;
 		font-weight: 300;
 		position: relative;
-		top: 5%;
+		top: 16px;
 		text-align: center;
 		/*color: #4997d5;*/
 	}
@@ -343,7 +344,89 @@
   		cursor: pointer;
 	}
 
-	:hover.button {
+:hover.button {
     	background-color: #5fb1f3;
 	}
+
+/*The OWL Carousel Start*/ 
+
+.carousel-wrap {
+  margin: 50px auto;
+  padding: 0 5%;
+  width: 86%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  	position: relative;
+  	z-index: 100; 
+  	height: 68px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-radius: 4px;
+  	background-color: #edf5fb; 
+  	color: #4997d5;
+   -webkit-backface-visibility: hidden;  
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -13px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 16px;
+  color: #4997d5;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+/*button.owl-prev:disabled .fa-caret-left::before {
+cursor: none;
+color: #ededed;
+}
+
+button.owl-next:disabled .fa-caret-right::before {
+cursor: none;
+color: #ededed;
+}*/
+
+button.owl-prev:disabled .fa-chevron-left::before {
+cursor: none;
+color: #ededed;
+}
+
+button.owl-next:disabled .fa-chevron-right::before {
+cursor: none;
+color: #ededed;
+}
+
+.item-active {
+	border: none;
+	outline: none;
+	height: 68px;
+	border-radius: 4px;
+  	background-color: #5fb1f3; 
+  	color: white;
+	}
+
+.item:hover  {
+  background-color: #dcf0ff;
+  color: #4997d5;
+  cursor: pointer;
+  transition: 0.7s;
+	} 
+/*The OWL Carousel End*/ 
+
+
 
